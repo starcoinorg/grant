@@ -1,0 +1,143 @@
+{
+  "home": {
+    "title": "首页",
+    "mainTitle": "Starcoin Grants",
+    "subTitle": "我们一起携手开发者共同建立Starcoin的生态系统。",
+    "toFaq": "查阅 FAQ"
+  },
+  "create": {
+    "title": "创建提案",
+    "mainTitle": "创建提案",
+    "subTitle": "为你的Starcoin项目申请资金。",
+    "add": "添加另一个接收人",
+    "create": "创建提案",
+    "form": {
+      "title": "你的项目叫什么名字?",
+      "desc": "你的目标是什么?它将如何有利于Starcoin生态系统?",
+      "amount": "申请数量",
+      "duration": "有效期限",
+      "project": "投票人可以从哪里了解你项目的细节?例如:网站，博客文章，文档",
+      "contact": "如何联系你?Twitter, Discord, Telegram link",
+      "grantee": "谁将会是这项奖助金的接受者?"
+    },
+    "placeholder": {
+      "title": "提案名称",
+      "desc": "描述",
+      "amount": "请输入数量",
+      "duration": "请输入有效期",
+      "project": "项目链接",
+      "contact": "额外的链接",
+      "grantee": "接收人地址",
+      "granteeName": "接收人姓名(可选)"
+    },
+    "message": {
+      "title": "请输入提案名称",
+      "desc": "请输入描述",
+      "amount": "请输入数量",
+      "duration": "请输入有效期",
+      "granteeAddress": "请输入接收人地址",
+      "granteePercent": "请输入接收百分比",
+      "invalidUrl": "无效的链接地址",
+      "success": "提案创建成功"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "message": [
+      [
+        "关于本项目",
+        "我们的目标是致力于为Starcoin生态系统的开源开发者创造长期的激励机制，特别是对Starcoin成功至关重要的公共产品的研发。"
+      ],
+      [
+        "它是如何工作的",
+        "社区可以对提案投赞成票或反对票。如果一项拨款获得超过400万投票，而反对票低于30%的总票数，就可以获得 Starcoin 基金会资助。此外，Starcoin 基金会也可以直接提供小额资助。"
+      ]
+    ]
+  },
+  "vote": {
+    "title": "投票",
+    "countdown": "倒计时",
+    "website": "官网链接",
+    "community": "社区媒体",
+    "address": "接收人地址",
+    "percentage": "百分比",
+    "name": "接收人姓名",
+    "status": "提案状态",
+    "mine": "我的投票数：{count}",
+    "detail": "提案详情",
+    "message": {
+      "success": "投票成功"
+    }
+  },
+  "languages": {
+    "zh": {
+      "short": "zh",
+      "long": "中文"
+    },
+    "en": {
+      "short": "en",
+      "long": "English"
+    }
+  },
+  "signin": "登录",
+  "signout": "登出",
+  "links": {
+    "technology": "技术",
+    "starmask": "StarMask 插件钱包",
+    "explorer": "区块链浏览器",
+    "docs": "开发者文档",
+    "sdk": "SDK",
+    "community": "社区",
+    "news": "新闻",
+    "labs": "Westar 实验室",
+    "chinese": "Move 中文社区",
+    "github": "GitHub 讨论区"
+  },
+  "dictionary": {
+    "1001": "赞成",
+    "1002": "反对",
+    "2001": "进行中",
+    "2002": "通过",
+    "2003": "失败",
+    "2004": "已结束",
+    "2005": "关闭",
+    "3001": "进行中",
+    "3002": "已通过",
+    "3003": "已结束"
+  },
+  "common": {
+    "tips": "温馨提示",
+    "download": "下载",
+    "cancel": "取消",
+    "confirm": "确定",
+    "loadMore": "加载更多",
+    "applied": "申请数量",
+    "approvalCount": "赞成数量",
+    "againstCount": "反对数量",
+    "detail": "详情",
+    "count": "数量",
+    "optional": "可选",
+    "maxcharacters": "最多 {max} 个字符",
+    "percentage": "百分比",
+    "percentDesc": "百分比加起来必须是100",
+    "distribute": "均匀分布",
+    "copysuccess": "复制成功",
+    "copyerror": "复制失败",
+    "code": {
+      "0": "操作成功",
+      "1": "操作失败"
+    }
+  },
+  "timeUnit": {
+    "days": "天",
+    "hours": "小时",
+    "minutes": "分钟",
+    "seconds": "秒"
+  },
+  "message": {
+    "starmaskNotInstalled": "未检测到Starmask插件，请下载安装后重试",
+    "less": "当前余额过低，请充值后投票",
+    "unsupportNode": "不支持的网络，请在Starmask插件中指定主网络"
+  },
+  "copyright": "© 2018-2021 Starcoin.org"
+}

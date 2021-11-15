@@ -1,0 +1,143 @@
+{
+  "home": {
+    "title": "Home",
+    "mainTitle": "Starcoin Grants",
+    "subTitle": "Together we empower developers building the ecosystem of Starcoin.",
+    "toFaq": "Read the FAQ"
+  },
+  "create": {
+    "title": "Create",
+    "mainTitle": "Create a Grant",
+    "subTitle": "Request funds for your Starcoin project.",
+    "add": "Add another grantee",
+    "create": "Create Grant",
+    "form": {
+      "title": "What is the name of your project?",
+      "desc": "What do you aim to achieve? How will it benefit the Starcoin ecosystem?",
+      "amount": "The amount of STC apply for",
+      "duration": "Valid period",
+      "project": "Where can voters learn about the details of your project? eg: website, blog post, document",
+      "contact": "How can folks contact you? eg: Twitter, Discord, Telegram link",
+      "grantee": "Who will be the recipients of this grant?"
+    },
+    "placeholder": {
+      "title": "Grant Name",
+      "desc": "Description",
+      "amount": "Please enter quantity",
+      "duration": "Please enter the validity period",
+      "project": "Project Link",
+      "contact": "Additional Link",
+      "grantee": "Grantee Address",
+      "granteeName": "Grantee Name(Optional)"
+    },
+    "message": {
+      "title": "Please enter grant name",
+      "desc": "Please enter description",
+      "amount": "Please enter amount",
+      "duration": "Please enter validity period",
+      "granteeAddress": "Please enter grantee address",
+      "granteePercent": "Please enter percentage",
+      "invalidUrl": "Invalid link address",
+      "success": "Created successfully"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "message": [
+      [
+        "About the Project",
+        "Our goal is to create long-term incentives for open-source developers working on Starcoin ecosystem, especially public goods R&D, which are essential to Starcoin’s success."
+      ],
+      [
+        "How It Works",
+        "The community can vote Approve or Oppose for a grant. If a grant get more than 4 millions votes and the opposed vote less than the 30% of total votes, it can be funded by the foundation of Starcoin. Furthermore, the foundation of Starcoin also could fund a grant directly with small amount."
+      ]
+    ]
+  },
+  "vote": {
+    "title": "Vote",
+    "countdown": "Left",
+    "website": "Website",
+    "community": "Community",
+    "address": "Grantee Address",
+    "percentage": "Percentage",
+    "name": "Grantee Name",
+    "status": "Status",
+    "mine": "My count：{count}",
+    "detail": "Grant Details",
+    "message": {
+      "success": "Vote success"
+    }
+  },
+  "languages": {
+    "zh": {
+      "short": "zh",
+      "long": "中文"
+    },
+    "en": {
+      "short": "en",
+      "long": "English"
+    }
+  },
+  "signin": "Sign in",
+  "signout": "Sign out",
+  "links": {
+    "technology": "Technology",
+    "starmask": "StarMask Wallet",
+    "explorer": "Blockchain Explorer",
+    "docs": "Developer Docs",
+    "sdk": "SDK",
+    "community": "Community",
+    "news": "News",
+    "labs": "Westar Labs",
+    "chinese": "Move Chinese Community",
+    "github": "GitHub Discussion"
+  },
+  "dictionary": {
+    "1001": "Approval",
+    "1002": "Oppose",
+    "2001": "Active",
+    "2002": "Passed",
+    "2003": "Not pass",
+    "2004": "Closed",
+    "2005": "Closed",
+    "3001": "Active",
+    "3002": "Passed",
+    "3003": "Closed"
+  },
+  "common": {
+    "tips": "Tips",
+    "download": "Download",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "loadMore": "Load more",
+    "applied": "Applied Amount",
+    "approvalCount": "Approval",
+    "againstCount": "Oppose",
+    "detail": "Detail",
+    "count": "Count",
+    "optional": "Optional",
+    "maxcharacters": "Max {max} characters",
+    "percentage": "Percentage",
+    "percentDesc": "Percentages must add up to 100",
+    "distribute": "Distribute Evenly",
+    "copysuccess": "Copy success",
+    "copyerror": "Copy error",
+    "code": {
+      "0": "Success",
+      "1": "Fail"
+    }
+  },
+  "timeUnit": {
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "message": {
+    "starmaskNotInstalled": "The Starmask plug-in is not detected, please download and install and try again",
+    "less": "The current balance is too low, please recharge and vote",
+    "unsupportNode": "Unsupported network, please specify the main network in the Starmask plug-in"
+  },
+  "copyright": "© 2018-2021 Starcoin.org"
+}

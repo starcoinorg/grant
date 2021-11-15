@@ -1,0 +1,187 @@
+@import './variables.scss';
+@import './transition.scss';
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  color: $primary-font;
+  background-color: $bg-1-color;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.font-medium {
+  font-weight: $font-medium;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+#app {
+  height: 100%;
+}
+
+$sizes: '14' 14px, '16' 16px, '20' 20px, '24' 24px, '26' 26px, '28' 28px, '30' 30px, '32' 32px, '34' 34px, '36' 36px, '40' 40px, '48' 48px;
+@each $name, $size in $sizes {
+  .font-#{$name} {
+    font-size: $size;
+  }
+  .icon-#{$name} {
+    width: $size;
+    height: $size;
+  }
+  .line-height-#{$name} {
+    line-height: $size;
+  }
+}
+
+$fontColors: 'primary' $primary-font, 'normal' $normal-font, 'second' $second-font, 'gray-font' $gray-font, 'black' $black, 'blue' $blue, 'grey' $grey,
+  'white' $white, 'orange' $orange, 'green' $green, 'red' $red;
+
+@each $name, $color in $fontColors {
+  .font-#{$name} {
+    color: $color;
+  }
+  .font-#{$name}-force {
+    color: $color !important;
+  }
+}
+
+$margins: '8' 8px, '12' 12px, '16' 16px, '24' 24px, '32' 32px;
+@each $name, $size in $margins {
+  .ml#{$name} {
+    margin-left: $size;
+  }
+  .mr#{$name} {
+    margin-right: $size;
+  }
+  .mt#{$name} {
+    margin-top: $size;
+  }
+  .mb#{$name} {
+    margin-bottom: $size;
+  }
+  .mh#{$name} {
+    margin-right: $size;
+    margin-left: $size;
+  }
+  .mv#{$name} {
+    margin-top: $size;
+    margin-bottom: $size;
+  }
+}
+
+.w100 {
+  width: 100%;
+}
+
+.global-width {
+  width: 1440px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.green {
+  background-color: $green;
+}
+.blue {
+  background-color: $blue;
+}
+.red {
+  background-color: $red;
+}
+.black {
+  background-color: $black;
+}
+
+// svg icon default style
+.svg-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  color: inherit;
+  vertical-align: middle;
+  fill: none;
+  stroke: currentColor;
+}
+
+.svg-fill {
+  fill: currentColor;
+  stroke: none;
+}
+
+.svg-up {
+  /* default */
+  transform: rotate(0deg);
+}
+
+.svg-right {
+  transform: rotate(90deg);
+}
+
+.svg-down {
+  transform: rotate(180deg);
+}
+
+.svg-left {
+  transform: rotate(-90deg);
+}
+
+// custom element ui
+.el-header,
+.el-main,
+.el-footer {
+  padding: 0;
+  margin: 0;
+}
+
+.el-message-box {
+  background-color: $bg-3-color;
+  border-color: gray;
+  .el-message-box__title {
+    color: $primary-font;
+  }
+  .el-message-box__content {
+    color: $normal-font;
+  }
+  .el-button {
+    color: $primary-font;
+    background-color: transparent;
+    border-color: gray;
+  }
+  .el-button--primary {
+    background-color: $blue;
+    border-color: $blue;
+  }
+}
+
+.el-loading-mask {
+  background-color: rgba(0, 0, 0, 0.541) !important;
+}
+
+.el-scrollbar {
+  .is-vertical {
+    z-index: 11;
+  }
+}
+
+.el-message {
+  font-weight: bold;
+  background-color: #51577a;
+  border-color: #51577a;
+}

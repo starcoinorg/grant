@@ -1,0 +1,74 @@
+{
+  "name": "starcoin-grants",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build:prod": "vue-cli-service build",
+    "build:test": "vue-cli-service build --mode test",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@kangc/v-md-editor": "^2.3.10",
+    "@metamask/jazzicon": "^2.0.0",
+    "@starcoin/starcoin": "^1.5.2",
+    "@starcoin/starmask-onboarding": "^1.0.0",
+    "@yzfe/svgicon": "^1.0.1",
+    "@yzfe/vue3-svgicon": "^1.0.1",
+    "axios": "^0.21.1",
+    "bignumber.js": "^9.0.1",
+    "clipboard": "^2.0.8",
+    "core-js": "^3.6.5",
+    "crypto-js": "^4.1.1",
+    "element-plus": "^1.0.2-beta.28",
+    "lodash": "^4.17.21",
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.0.0",
+    "vue-loader": "^16.0.0-rc.1",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@yzfe/svgicon-loader": "^1.0.4",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "prettier": "^2.3.2",
+    "sass": "^1.38.0",
+    "sass-loader": "^10",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.5.0",
+    "stylelint-config-standard-scss": "^1.1.0",
+    "stylelint-prettier": "^1.2.0",
+    "stylelint-scss": "^3.20.1",
+    "vue-cli-plugin-element-plus": "~0.0.13",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
